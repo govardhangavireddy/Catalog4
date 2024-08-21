@@ -13,7 +13,7 @@ public class Authentication {
         String alphaNumeric = upperAlphabet + lowerAlphabet + numbers;
         StringBuilder sb = new StringBuilder();
         Random random = new Random();
-        int length = 7; // specify the desired length
+        int length = 7;
         for (int i = 0; i < length; i++) {
             int index = random.nextInt(alphaNumeric.length());
             char randomChar = alphaNumeric.charAt(index);
